@@ -14,7 +14,7 @@ class App extends Component {
     loading: false
   };
 
-  searchCharacter = name => {
+  changeCharacter = name => {
     this.setState({ name })
   }
 
@@ -24,7 +24,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Form 
-          searchCharacter={this.searchCharacter}
+          changeCharacter={this.changeCharacter}
           name={name}
           films={films}
           homeworld={homeworld}
