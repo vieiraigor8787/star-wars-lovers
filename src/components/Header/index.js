@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => (
     <header>
-        <h1 className="title">Bem vindo, Star Wars Lovers</h1>
+        <h1 className="container title text-white bg-dark p-3">Bem vindo, Star Wars Lovers</h1>
     </header>
 )
 
